@@ -30,5 +30,13 @@ public class Main {
         BankAccount bank3 = new BankAccount(12243, 200.00, "Bubba Buick",
                 "afa@gmaid.com", "999-999");
         BankAccount bank4 = new BankAccount();
+
+        VipCustomer vip1 = new VipCustomer();
+        VipCustomer vip2 = new VipCustomer("John", 5000.00);
+        VipCustomer vip3 = new VipCustomer( "Tommy", 400.00, "tommy@customer.com");
+
+        System.out.println(vip1.getName());
+        System.out.println(vip2.getName());
+        System.out.println(vip3.getName());
     }
 }

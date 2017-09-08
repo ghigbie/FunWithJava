@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3366dbe1-e053-4e5f-a98b-03a3006b22a3" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/georgehigbie/VipCustomer.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/georgehigbie/Main.java" afterPath="$PROJECT_DIR$/src/com/georgehigbie/Main.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/georgehigbie/VipCustomer.java" afterPath="$PROJECT_DIR$/src/com/georgehigbie/VipCustomer.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -15,24 +16,30 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Main.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Main.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/georgehigbie/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="282">
-              <caret line="25" column="0" lean-forward="true" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
+            <state relative-caret-position="315">
+              <caret line="33" column="45" lean-forward="true" selection-start-line="33" selection-start-column="45" selection-end-line="33" selection-end-column="45" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="VipCustomer.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="VipCustomer.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/georgehigbie/VipCustomer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="345">
-              <caret line="23" column="1" lean-forward="true" selection-start-line="23" selection-start-column="1" selection-end-line="23" selection-end-column="1" />
+            <state relative-caret-position="280">
+              <caret line="28" column="27" lean-forward="true" selection-start-line="28" selection-start-column="27" selection-end-line="28" selection-end-column="27" />
               <folding>
                 <element signature="e#354#355#0" expanded="true" />
                 <element signature="e#415#416#0" expanded="true" />
+                <element signature="e#618#619#0" expanded="true" />
+                <element signature="e#645#646#0" expanded="true" />
+                <element signature="e#683#684#0" expanded="true" />
+                <element signature="e#717#718#0" expanded="true" />
+                <element signature="e#749#750#0" expanded="true" />
+                <element signature="e#777#778#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -108,13 +115,13 @@
       <list>
         <option value="$PROJECT_DIR$/src/com/georgehigbie/Car.java" />
         <option value="$PROJECT_DIR$/src/com/georgehigbie/BankAccount.java" />
-        <option value="$PROJECT_DIR$/src/com/georgehigbie/Main.java" />
         <option value="$PROJECT_DIR$/src/com/georgehigbie/VipCustomer.java" />
+        <option value="$PROJECT_DIR$/src/com/georgehigbie/Main.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="472" />
+    <option name="x" value="349" />
     <option name="y" value="37" />
     <option name="width" value="1400" />
     <option name="height" value="814" />
@@ -230,7 +237,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="472" y="37" width="1400" height="814" extended-state="0" />
+    <frame x="349" y="37" width="1400" height="814" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -285,14 +292,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/georgehigbie/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="282">
-          <caret line="25" column="0" lean-forward="true" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/georgehigbie/BankAccount.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="358">
@@ -324,12 +323,26 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/georgehigbie/VipCustomer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="23" column="1" lean-forward="true" selection-start-line="23" selection-start-column="1" selection-end-line="23" selection-end-column="1" />
+        <state relative-caret-position="280">
+          <caret line="28" column="27" lean-forward="true" selection-start-line="28" selection-start-column="27" selection-end-line="28" selection-end-column="27" />
           <folding>
             <element signature="e#354#355#0" expanded="true" />
             <element signature="e#415#416#0" expanded="true" />
+            <element signature="e#618#619#0" expanded="true" />
+            <element signature="e#645#646#0" expanded="true" />
+            <element signature="e#683#684#0" expanded="true" />
+            <element signature="e#717#718#0" expanded="true" />
+            <element signature="e#749#750#0" expanded="true" />
+            <element signature="e#777#778#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/georgehigbie/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="33" column="45" lean-forward="true" selection-start-line="33" selection-start-column="45" selection-end-line="33" selection-end-column="45" />
+          <folding />
         </state>
       </provider>
     </entry>

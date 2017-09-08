@@ -21,4 +21,15 @@ public class VipCustomer {
         this.email = email;
     }
 
+    public String getName() {
+        return name;
+    }
+
+    public double getCreditLimit() {
+        return creditLimit;
+    }
+
+    public String getEmail() {
+        return email;
+    }
 }
