@@ -21,10 +21,10 @@ public class Main {
         System.out.println("bank1 balance: " + bank1.getBalance() );
         System.out.println("bank2 balance: " + bank2.getBalance() );
 
-        bank1.deposit(bank1, bank1.getBalance());
-        bank2.deposit(bank2, bank2.getBalance());
+        bank1.deposit(100);
+        bank2.deposit(100);
 
-        bank1.withdrawl(bank1,1000.00);
-        bank2.withdrawl(bank2,100.00);
+        bank1.withdrawl(1000.00);
+        bank2.withdrawl(150.00);
     }
 }

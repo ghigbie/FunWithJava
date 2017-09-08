@@ -47,21 +47,17 @@ public class BankAccount {
         return phone;
     }
 
-    public void deposit(BankAccount account, double amount){
-        double balance = account.getBalance();
-        balance += amount;
-        account.setBalance(balance);
-        System.out.println("The current balance is: " + account.getBalance());
+    public void deposit(double amount){
+        this.balance += amount;
+        System.out.println("The current balance is: " + this.balance);
     }
 
-    public void withdrawl(BankAccount account, double amount){
-        double balance = account.getBalance();
-        if(balance > amount) {
-            balance -= amount;
-            account.setBalance(balance);
+    public void withdrawl(double amount){
+        if(this.balance > amount) {
+            this.balance -= amount;
         }else{
             System.out.println("No withdrawl is possible at this time.");
         }
-        System.out.println("The current balance is: " + account.getBalance());
+        System.out.println("The current balance is: " + this.balance);
     }
 }
