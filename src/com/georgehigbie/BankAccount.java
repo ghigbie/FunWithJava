@@ -8,6 +8,19 @@ public class BankAccount {
     private String email;
     private String phone;
 
+    public BankAccount(){
+        this(1234, 2.50, "Default name", "Default email", "9876543");
+        System.out.println("This is an empty constructor with default values");
+    }
+
+    public BankAccount(int accountNumber, double balance, String customerName, String email, String phone){
+        this.accountNumber = accountNumber;
+        this.balance = balance;
+        this.customerName = customerName;
+        this.email = email;
+        this.phone = phone;
+    }
+
     public void setAccountNumber(int accountNumber){
         this.accountNumber = accountNumber;
     }

@@ -26,5 +26,9 @@ public class Main {
 
         bank1.withdrawl(1000.00);
         bank2.withdrawl(150.00);
+
+        BankAccount bank3 = new BankAccount(12243, 200.00, "Bubba Buick",
+                "afa@gmaid.com", "999-999");
+        BankAccount bank4 = new BankAccount();
     }
 }
