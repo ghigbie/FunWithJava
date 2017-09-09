@@ -22,4 +22,10 @@ public class Truck extends Vehicle{
     public void steering(String direction){
         System.out.println("The truck is steering " + direction);
     }
+
+    @Override
+    public void stop() {
+        System.out.println("The truck is hitting the brakes");
+        super.stop();
+    }
 }

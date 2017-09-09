@@ -21,4 +21,8 @@ public class Vehicle {
     public void move(int speed){
         System.out.println("The vehicle is moving at " + speed);
     }
+
+    public void stop(){
+        System.out.println("The vehicle is stopping");
+    }
 }

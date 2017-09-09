@@ -66,6 +66,7 @@ public class Main {
         f150.changeGearsDown();
         f150.steering("right");
         f150.haulStuff();
+        f150.stop();
 
     }
 }
