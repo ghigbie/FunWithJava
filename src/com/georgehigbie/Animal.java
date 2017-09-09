@@ -6,14 +6,22 @@ public class Animal {
     private int brain;
     private int body;
     private int size;
-    private int weigth;
+    private int weight;
 
-    public Animal(String name, int brain, int body, int size, int weigth) {
+    public Animal(String name, int brain, int body, int size, int weight) {
         this.name = name;
         this.brain = brain;
         this.body = body;
         this.size = size;
-        this.weigth = weigth;
+        this.weight = weight;
+    }
+
+    public void eat(){
+
+    }
+
+    public void move(){
+
     }
 
     public String getName() {
