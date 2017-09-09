@@ -38,5 +38,9 @@ public class Main {
         System.out.println(vip1.getName());
         System.out.println(vip2.getName() + " " + vip2.getEmail());
         System.out.println(vip3.getName() + " " + vip3.getCreditLimit() + " " + vip3.getEmail());
+
+        Animal animal1 = new Animal("Animal One", 1, 1, 12, 25);
+        Dog dog1 = new Dog("Fluffy", 23, 34, 2, 4, 20, 1, "short");
+        Animal animal2 = new Dog("Fluffy", 23, 34, 2, 4, 20, 1, "short");
     }
 }
