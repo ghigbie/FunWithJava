@@ -40,7 +40,7 @@ public class Animal {
         return size;
     }
 
-    public int getWeigth() {
-        return weigth;
+    public int getWeight() {
+        return weight;
     }
 }

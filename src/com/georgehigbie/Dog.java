@@ -8,7 +8,7 @@ public class Dog extends Animal{
     private int size;
     private String coat;
 
-    public Dog(String name, int brain, int body, int size, int weigth) {
-        super(name, brain, body, size, weigth);
+    public Dog(String name, int size, int weigth) {
+        super(name, 1, 1, size, weigth);
     }
 }
