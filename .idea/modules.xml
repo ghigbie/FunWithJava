@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/Computer/Computer.iml" filepath="$PROJECT_DIR$/Computer/Computer.iml" />
       <module fileurl="file://$PROJECT_DIR$/JavaReboot.iml" filepath="$PROJECT_DIR$/JavaReboot.iml" />
     </modules>
   </component>
