@@ -41,6 +41,21 @@ public class Main {
 
         Animal animal1 = new Animal("Animal One", 1, 1, 12, 25);
         Dog dog1 = new Dog("Fluffy", 23, 34, 2, 4, 20, 1, "short");
-        Animal animal2 = new Dog("Fluffy", 23, 34, 2, 4, 20, 1, "short");
+        Dog dog2 = new Dog("Fluffy", 23, 34, 2, 4, 20, 1, "short");
+
+        animal1.eat();
+        dog1.eat();
+        dog2.eat();
+
+        animal1.move(5);
+
+        Cat cat1 = new Cat("Kitty", 12, 10, 2, 4, 1,24, "short");
+        cat1.eat();
+        cat1.move(5);
+
+        cat1.run();
+        dog1.run();
+
+
     }
 }
