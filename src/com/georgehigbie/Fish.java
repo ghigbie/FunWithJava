@@ -13,4 +13,25 @@ public class Fish extends Animal{
         this.eyes = eyes;
         this.fins = fins;
     }
+
+    public void rest(){
+        System.out.println("The fishy is just sitting there.");
+    }
+
+    private void moveMuscles(){
+        System.out.println("The fishy is undulating");
+    }
+
+    private void moveBackFin(){
+        moveMuscles();
+        System.out.println("The fishy is moving his back fin");
+    }
+
+
+    public void swim(int speed){
+        moveMuscles();
+        moveBackFin();
+        move(1);
+        System.out.println("The fish is swimming away!");
+    }
 }

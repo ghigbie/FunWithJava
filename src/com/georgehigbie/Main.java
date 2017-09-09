@@ -56,6 +56,9 @@ public class Main {
         cat1.run();
         dog1.run();
 
+        Fish fish1 = new Fish("Fishy", 1, 2, 23, 2, 5);
+        fish1.rest();
+        fish1.swim(2);
 
     }
 }
