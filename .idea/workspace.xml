@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3366dbe1-e053-4e5f-a98b-03a3006b22a3" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/georgehigbie/Case.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/georgehigbie/Resolution.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Monitor.java" afterPath="$PROJECT_DIR$/src/Monitor.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/georgehigbie/Dimensions.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -17,19 +14,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Animal.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/georgehigbie/Animal.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
-              <caret line="22" column="25" lean-forward="false" selection-start-line="22" selection-start-column="25" selection-end-line="22" selection-end-column="25" />
-              <folding>
-                <element signature="e#407#408#0" expanded="true" />
-                <element signature="e#468#469#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="Cat.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/georgehigbie/Cat.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -139,10 +123,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Case.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Case.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/georgehigbie/Case.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="345">
+            <state relative-caret-position="135">
               <caret line="23" column="0" lean-forward="true" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
               <folding>
                 <element signature="e#460#461#0" expanded="true" />
@@ -155,6 +139,22 @@
                 <element signature="e#725#726#0" expanded="true" />
                 <element signature="e#766#767#0" expanded="true" />
                 <element signature="e#799#800#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Dimensions.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/georgehigbie/Dimensions.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="210">
+              <caret line="14" column="27" lean-forward="false" selection-start-line="14" selection-start-column="27" selection-end-line="14" selection-end-column="27" />
+              <folding>
+                <element signature="e#330#331#0" expanded="true" />
+                <element signature="e#360#361#0" expanded="true" />
+                <element signature="e#389#390#0" expanded="true" />
+                <element signature="e#418#419#0" expanded="true" />
+                <element signature="e#446#447#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -210,6 +210,7 @@
         <option value="$PROJECT_DIR$/src/com/georgehigbie/Resolution.java" />
         <option value="$PROJECT_DIR$/src/Monitor.java" />
         <option value="$PROJECT_DIR$/src/com/georgehigbie/Case.java" />
+        <option value="$PROJECT_DIR$/src/com/georgehigbie/Dimensions.java" />
       </list>
     </option>
   </component>
@@ -642,7 +643,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/georgehigbie/Case.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
+        <state relative-caret-position="135">
           <caret line="23" column="0" lean-forward="true" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
           <folding>
             <element signature="e#460#461#0" expanded="true" />
@@ -655,6 +656,20 @@
             <element signature="e#725#726#0" expanded="true" />
             <element signature="e#766#767#0" expanded="true" />
             <element signature="e#799#800#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/georgehigbie/Dimensions.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="27" lean-forward="false" selection-start-line="14" selection-start-column="27" selection-end-line="14" selection-end-column="27" />
+          <folding>
+            <element signature="e#330#331#0" expanded="true" />
+            <element signature="e#360#361#0" expanded="true" />
+            <element signature="e#389#390#0" expanded="true" />
+            <element signature="e#418#419#0" expanded="true" />
+            <element signature="e#446#447#0" expanded="true" />
           </folding>
         </state>
       </provider>
