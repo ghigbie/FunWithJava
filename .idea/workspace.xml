@@ -2,12 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3366dbe1-e053-4e5f-a98b-03a3006b22a3" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Computer/Computer.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Monitor.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/georgehigbie/Computer.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/georgehigbie/Motherboard.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/georgehigbie/Case.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/georgehigbie/Resolution.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Monitor.java" afterPath="$PROJECT_DIR$/src/Monitor.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -19,34 +17,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Ford.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/georgehigbie/Ford.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="14" column="1" lean-forward="false" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
-              <folding>
-                <element signature="e#293#294#0" expanded="true" />
-                <element signature="e#357#358#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Fish.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/georgehigbie/Fish.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="25" column="22" lean-forward="false" selection-start-line="25" selection-start-column="22" selection-end-line="25" selection-end-column="22" />
-              <folding>
-                <element signature="e#365#366#0" expanded="true" />
-                <element signature="e#435#436#0" expanded="true" />
-                <element signature="e#468#469#0" expanded="true" />
-                <element signature="e#529#530#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="Animal.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/georgehigbie/Animal.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -150,22 +120,56 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Monitor.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Monitor.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Monitor.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="315">
-              <caret line="21" column="5" lean-forward="true" selection-start-line="21" selection-start-column="5" selection-end-line="21" selection-end-column="5" />
+            <state relative-caret-position="210">
+              <caret line="14" column="5" lean-forward="true" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="5" />
               <folding>
-                <element signature="e#620#621#0" expanded="true" />
-                <element signature="e#648#649#0" expanded="true" />
-                <element signature="e#686#687#0" expanded="true" />
-                <element signature="e#720#721#0" expanded="true" />
-                <element signature="e#751#752#0" expanded="true" />
-                <element signature="e#778#779#0" expanded="true" />
-                <element signature="e#806#807#0" expanded="true" />
-                <element signature="e#833#834#0" expanded="true" />
-                <element signature="e#880#881#0" expanded="true" />
-                <element signature="e#919#920#0" expanded="true" />
+                <element signature="e#617#618#0" expanded="true" />
+                <element signature="e#645#646#0" expanded="true" />
+                <element signature="e#684#685#0" expanded="true" />
+                <element signature="e#719#720#0" expanded="true" />
+                <element signature="e#747#748#0" expanded="true" />
+                <element signature="e#774#775#0" expanded="true" />
+                <element signature="e#821#822#0" expanded="true" />
+                <element signature="e#860#861#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Case.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/georgehigbie/Case.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="345">
+              <caret line="23" column="0" lean-forward="true" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
+              <folding>
+                <element signature="e#460#461#0" expanded="true" />
+                <element signature="e#519#520#0" expanded="true" />
+                <element signature="e#551#552#0" expanded="true" />
+                <element signature="e#579#580#0" expanded="true" />
+                <element signature="e#618#619#0" expanded="true" />
+                <element signature="e#653#654#0" expanded="true" />
+                <element signature="e#691#692#0" expanded="true" />
+                <element signature="e#725#726#0" expanded="true" />
+                <element signature="e#766#767#0" expanded="true" />
+                <element signature="e#799#800#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Resolution.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/georgehigbie/Resolution.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="90">
+              <caret line="6" column="0" lean-forward="true" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+              <folding>
+                <element signature="e#241#242#0" expanded="true" />
+                <element signature="e#269#270#0" expanded="true" />
+                <element signature="e#299#300#0" expanded="true" />
+                <element signature="e#328#329#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -203,13 +207,15 @@
         <option value="$PROJECT_DIR$/src/com/georgehigbie/Truck.java" />
         <option value="$PROJECT_DIR$/src/com/georgehigbie/Main.java" />
         <option value="$PROJECT_DIR$/src/com/georgehigbie/Motherboard.java" />
+        <option value="$PROJECT_DIR$/src/com/georgehigbie/Resolution.java" />
         <option value="$PROJECT_DIR$/src/Monitor.java" />
+        <option value="$PROJECT_DIR$/src/com/georgehigbie/Case.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="464" />
-    <option name="y" value="40" />
+    <option name="x" value="507" />
+    <option name="y" value="37" />
     <option name="width" value="1400" />
     <option name="height" value="814" />
   </component>
@@ -334,7 +340,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="464" y="40" width="1400" height="814" extended-state="0" />
+    <frame x="507" y="37" width="1400" height="814" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -604,21 +610,51 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/georgehigbie/Resolution.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="0" lean-forward="true" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+          <folding>
+            <element signature="e#241#242#0" expanded="true" />
+            <element signature="e#269#270#0" expanded="true" />
+            <element signature="e#299#300#0" expanded="true" />
+            <element signature="e#328#329#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/Monitor.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="21" column="5" lean-forward="true" selection-start-line="21" selection-start-column="5" selection-end-line="21" selection-end-column="5" />
+        <state relative-caret-position="210">
+          <caret line="14" column="5" lean-forward="true" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="5" />
           <folding>
-            <element signature="e#620#621#0" expanded="true" />
-            <element signature="e#648#649#0" expanded="true" />
-            <element signature="e#686#687#0" expanded="true" />
-            <element signature="e#720#721#0" expanded="true" />
-            <element signature="e#751#752#0" expanded="true" />
-            <element signature="e#778#779#0" expanded="true" />
-            <element signature="e#806#807#0" expanded="true" />
-            <element signature="e#833#834#0" expanded="true" />
-            <element signature="e#880#881#0" expanded="true" />
-            <element signature="e#919#920#0" expanded="true" />
+            <element signature="e#617#618#0" expanded="true" />
+            <element signature="e#645#646#0" expanded="true" />
+            <element signature="e#684#685#0" expanded="true" />
+            <element signature="e#719#720#0" expanded="true" />
+            <element signature="e#747#748#0" expanded="true" />
+            <element signature="e#774#775#0" expanded="true" />
+            <element signature="e#821#822#0" expanded="true" />
+            <element signature="e#860#861#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/georgehigbie/Case.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="23" column="0" lean-forward="true" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
+          <folding>
+            <element signature="e#460#461#0" expanded="true" />
+            <element signature="e#519#520#0" expanded="true" />
+            <element signature="e#551#552#0" expanded="true" />
+            <element signature="e#579#580#0" expanded="true" />
+            <element signature="e#618#619#0" expanded="true" />
+            <element signature="e#653#654#0" expanded="true" />
+            <element signature="e#691#692#0" expanded="true" />
+            <element signature="e#725#726#0" expanded="true" />
+            <element signature="e#766#767#0" expanded="true" />
+            <element signature="e#799#800#0" expanded="true" />
           </folding>
         </state>
       </provider>

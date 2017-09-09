@@ -1,14 +1,15 @@
+import com.georgehigbie.Resolution;
+
 public class Monitor {
 
     private String model;
-    private String manufactize,urer;
+    private String manufacturer;
     private int size;
     private Resolution nativeResolution;
 
-    public Monitor(String model, String manufactize, String urer, int size, Resolution nativeResolution) {
+    public Monitor(String model, String manufacturer, int size, Resolution nativeResolution) {
         this.model = model;
-        this.manufactize = manufactize;
-        this.urer = urer;
+        this.manufacturer = manufacturer;
         this.size = size;
         this.nativeResolution = nativeResolution;
     }
@@ -21,12 +22,8 @@ public class Monitor {
         return model;
     }
 
-    public String getManufactize() {
-        return manufactize;
-    }
-
-    public String getUrer() {
-        return urer;
+    public String getManufacturer() {
+        return manufacturer;
     }
 
     public int getSize() {
