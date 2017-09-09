@@ -11,8 +11,12 @@ public class Truck extends Vehicle{
         this.wheels = wheels;
     }
 
-    public void changeGears(){
-        System.out.println("The truck is changing gears");
+    public void changeGearsDown(){
+        System.out.println("The truck is changing gears down");
+    }
+
+    public void changeGearsUp(){
+        System.out.println("The truck is changing gears up");
     }
 
     public void steering(String direction){

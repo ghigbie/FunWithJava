@@ -60,5 +60,12 @@ public class Main {
         fish1.rest();
         fish1.swim(2);
 
+        Ford f150 = new Ford(120, 3, 2, 4, true);
+        f150.move(75);
+        f150.changeGearsUp();
+        f150.changeGearsDown();
+        f150.steering("right");
+        f150.haulStuff();
+
     }
 }
