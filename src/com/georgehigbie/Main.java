@@ -1,5 +1,7 @@
 package com.georgehigbie;
 
+import javax.management.monitor.Monitor;
+
 public class Main {
 
     public static void main(String[] args) {
@@ -67,6 +69,15 @@ public class Main {
         f150.steering("right");
         f150.haulStuff();
         f150.stop();
+
+        Dimensions dimensions = new Dimensions(20, 20, 5);
+        Case theCase = new Case("220B", "dell", "240", dimensions);
+        ScreanMonitor monitor = new ScreanMonitor("27 inch Beast", "acer", 27, new Resolution(15, 22));
+        Motherboard motherboard = new Motherboard("1A23", "Asus", 4, 8, "v2.44");
+        Computer PC = new Computer(theCase, monitor, motherboard );
+        PC.getMonitor().drawPixelAt(12, 24, "red");
+        PC.getMotherboard().loadProgram("Pac man");
+
 
     }
 }

@@ -5,10 +5,10 @@ import javax.management.monitor.Monitor;
 public class Computer {
 
     private Case theCase;
-    private Monitor monitor;
+    private ScreanMonitor monitor;
     private Motherboard motherboard;
 
-    public Computer(Case theCase, Monitor monitor, Motherboard motherboard) {
+    public Computer(Case theCase, ScreanMonitor monitor, Motherboard motherboard) {
         this.theCase = theCase;
         this.monitor = monitor;
         this.motherboard = motherboard;
@@ -18,7 +18,7 @@ public class Computer {
         return theCase;
     }
 
-    public Monitor getMonitor() {
+    public ScreanMonitor getMonitor() {
         return monitor;
     }
 
